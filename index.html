@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Login Page</h1>
+  <div id="login-container">
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Health App</h1>
+  <div id="form-container">
+    <h2>Add Person</h2>
+    <form id="person-form">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="date" id="dob" placeholder="Date of Birth" required>
+      <input type="text" id="account_id" placeholder="Account ID" required>
+      <input type="text" id="phone_number" placeholder="Phone Number" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="city" placeholder="City" required>
+      <input type="text" id="state" placeholder="State" required>
+      <input type="text" id="pin_code" placeholder="Pin Code" required>
+      <button type="submit">Add Person</button>
+    </form>
+
+    <h2>Add Health Tracker</h2>
+    <form id="tracker-form">
+      <input type="text" id="tracker_account_id" placeholder="Account ID" required>
+      <input type="number" id="bp" placeholder="BP" required>
+      <input type="number" id="sleep_hours" placeholder="Sleep Hours" required>
+      <input type="number" id="water_drank" placeholder="Water Drank (L)" required>
+      <input type="number" id="blood_sugar_level" placeholder="Blood Sugar Level" required>
+      <input type="text" id="exercise" placeholder="Exercise" required>
+      <input type="number" id="no_of_steps" placeholder="No of Steps" required>
+      <button type="submit">Add Health Tracker</button>
+    </form>
+
+    <h6>
+      NOTE:
+      <p><ul>
+        <li>🟥 high blood pressure</li>
+        <li>🟦 low blood pressure</li>
+        <li>🟧 high sugar level</li>
+        <li>🟨 low sugar level</li>
+      </ul></p>
+    </h6>
+  </div>
+  <div id="content"></div>
+  <script src="appnew.js"></script>
+</body>
+</html>
